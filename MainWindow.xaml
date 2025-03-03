@@ -1,0 +1,30 @@
+﻿<Window x:Class="Forced.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Forced"
+        mc:Ignorable="d"
+     Title="Stellar" Height="710" Width="1304"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True" >
+    <Grid>
+
+
+
+
+        <Grid Name="LoginScreen">
+
+         
+
+            <Border Background="#101010" Margin="429,80,429,80" CornerRadius="10"/>
+            <Label Content="Login" Foreground="White" FontFamily="Arial" FontWeight="Bold" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,114,0,0"/>
+
+        </Grid>
+
+
+    </Grid>
+</Window>
