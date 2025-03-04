@@ -18,10 +18,28 @@
 
         <Grid Name="LoginScreen">
 
-         
+            <StackPanel Panel.ZIndex="5" Margin="620,165,620,475">
 
-            <Border Background="#101010" Margin="429,80,429,80" CornerRadius="10"/>
-            <Label Content="Login" Foreground="White" FontFamily="Arial" FontWeight="Bold" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,114,0,0"/>
+                <Ellipse Height="63">
+
+                    <Ellipse.Fill>
+
+                        <ImageBrush ImageSource="/Assets/Images/Forcedlogo.png"/>
+
+                    </Ellipse.Fill>
+
+                </Ellipse>
+
+            </StackPanel>
+
+
+            <Border Background="#151515" Panel.ZIndex="5" Margin="522,302,522,371" CornerRadius="10"/>
+
+            <Border Background="#101010" Margin="504,151,504,151" CornerRadius="10"/>
+            <Label Content="Login" Foreground="White" FontFamily="Arial" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,235,0,0"/>
+            <Border Background="#151515" Panel.ZIndex="5" Margin="522,344,522,329" CornerRadius="10"/>
+            <Border Background="#FF0056FF" Panel.ZIndex="5" Margin="522,393,522,280" CornerRadius="10"/>
+            <Label Content="Join Discord!" Margin="522,393,522,280" Foreground="White" Panel.ZIndex="5" FontFamily="Arial" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
 
         </Grid>
 
